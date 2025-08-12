@@ -1,21 +1,23 @@
-TestcaseID      Tittle                    Steps                         Expected Result
-TC0001          UI comparation            1. Go to log in site          All fields and 
-                                          2. Compare UI with            button display the
-                                          design                        same with design
-TC0002          Check default             1. Go to log in site          Dislay correct 
-                Place's holder            2. Observe place's holder     place's older
-                                          on input fields   
-TC0003          Valid login               1. Go to login site           Redirect to 
-                                          2. Input valid username       Dashboard
-                                          & password
-                                          3. Press Login button  
-TC0004          Fields blank              1. Go to Log in site          Error message
-                                          2. Leave username &           " Username &
-                                          password blank                password requied"
-                                          3. Press Login button   
-
-
-TC0005          Invalid username          1. Go to Log in site          Error message
-                                          2. Input invalid              "Username is not
-                                          username                      found"            
-                                          3. Press Login button  
+TestCaseID	    Title	            Steps	                        Expected Result
+TC0001	        UI comparison	    1. Go to the Login page.        All fields, labels
+                                    2. Compare all visible          , and buttons should match 
+                                    elements (logo, input           the design specifications 
+                                    fields, buttons, labels,        exactly in terms of text, 
+                                    colors, fonts) with the         color, size, and position.
+                                    design specifications.	        The username field should " 
+TC0002	        Check default   	1. Go to the Login page.        display "Enter username
+                placeholders        2. Observe the placeholder      and the password field should 
+                                    text in the username and        display "Enter password".
+                                    password fields.	
+TC0003	        Valid login	        1. Go to the Login page.        The system should log in 
+                                    2. Enter a valid username       successfully and redirect 
+                                    and password.                   the user to the dashboard page.
+                                    3. Click the Login button.	    
+TC0004	        Fields blank    	1. Go to the Login page.        The system should display an 
+                                    2. Leave both username and      error message: "Username & 
+                                    password fields blank.          password are required".
+                                    3. Click the Login button
+TC0005	        Invalid username	1. Go to the Login page.        The system should display 
+                                    2. Enter an invalid username    an error message: "username
+                                    with a valid password.          is not found".
+                                    3. Click the Login button
